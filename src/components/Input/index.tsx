@@ -1,9 +1,19 @@
 import React from 'react'
 
-export default function Input() {
+interface Props {
+  type: string,
+  onChange: (event: any) => any | void
+  placeholder: string,
+  checked?: boolean,
+  value?: string
+}
+
+
+export default function Input(props: Props) {
+  const {type, onChange, placeholder, checked} = props
   return (
     <div>
-      <h1>Input</h1>
+      <input type={type} placeholder={placeholder} onChange={onChange} checked={checked}/>
     </div>
   )
 }

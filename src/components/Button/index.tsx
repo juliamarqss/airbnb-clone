@@ -1,9 +1,19 @@
 import React from 'react'
 
-export default function Button() {
+interface Props {
+  title: string,
+  onClick: () => any,
+  type: 'button' | 'submit' | 'reset',
+  disabled: boolean, 
+}
+
+export default function Button(
+  props: Props
+) {
+  const { title, onClick, type, disabled } = props
   return (
     <div>
-      <h1>Button</h1>
+      <button onClick={onClick} type={type} disabled={disabled}>{title}</button>
     </div>
   )
 }

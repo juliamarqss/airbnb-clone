@@ -6,7 +6,7 @@ export default function Modal() {
   const router = useRouter()
 
   const handleClick = (title: string) => {
-    title === 'Entre' ? router.push('/login') : router.push('/register')
+    title === 'Entre' ? router.push('/Login') : router.push('/Register')
   }
 
    return (

@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import data from '../../../mock/index.json'
 import Image from 'next/image'
 import Link from 'next/link'
+import CardProperty from '@/components/CardProperty'
 
 export default function HomeCustomer() {
   return (
@@ -10,10 +11,7 @@ export default function HomeCustomer() {
       <Header />
       <h1>HomeCustomer</h1>
       {data.map((item, index) => (
-        <Link key={index} href="http://localhost:3000/Customer/DetailsPropertyCustomer">
-          <Image src={item.img1} alt='foto' width={300} height={300} unoptimized={true} />
-          <h2>{item.title}</h2>
-        </Link>
+        <CardProperty key={index} url={item.img1} index={index} title={item.title} img1={item.img1} />
       ))}
     </div>
   )

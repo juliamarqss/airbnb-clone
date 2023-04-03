@@ -17,7 +17,7 @@ export default function LandingPage() {
         modal && <Modal />
       }
       <div>
-        <Image src={Landing} alt="Landing Page" />
+        <Image src={Landing} alt="Landing Page" width={1000} />
         <button onClick={handleClick}>Reserve aqui!</button>
       </div>
     </div>

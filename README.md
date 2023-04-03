@@ -1,4 +1,4 @@
-# PROJETO: CLONE DO SITE AIRBNB
+# PROJETO: CLONE DO AIRBNB
 🚧Este projeto está em construção. Em breve terá uma descrição detalhada e instruções de uso. 🚧
 
 ## Funcionalidades 🛠️

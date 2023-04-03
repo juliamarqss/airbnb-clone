@@ -1,4 +1,4 @@
-{
+[{
     "id": 21,
     "title": "Chalé completo ALTO PADRÃO. (550m do Hotel Cainã).",
     "subtitle": "Chalé completo (sua casa de campo), localizado em grande área de campos verdes, pura natureza. Uma experiência única, para descanso e lazer.",
@@ -44,4 +44,128 @@
    },
     "price": 200
 
-}
+},
+{
+    "id": 99,
+    "title": "Apartamento de luxo no centro da cidade",
+    "subtitle": "Apartamento completo no coração da cidade, cercado por lojas, restaurantes e atrações turísticas. Uma experiência única para quem busca conforto e praticidade.",
+    "description": "O espaço é moderno e elegante. Sala de estar integrada com cozinha e quarto espaçoso. Cozinha completa com cooktop, forno elétrico, micro-ondas, geladeira, pia com área gourmet e bancada para refeições. Na sala de estar temos uma TV de tela plana, ar condicionado e sofá confortável. No banheiro, pia dupla, chuveiro elétrico e uma banheira de hidromassagem com vista panorâmica para a cidade. Quarto com cama queen size (lençóis 400fios), guarda-roupa espaçoso e decoração sofisticada. Portaria 24h com segurança e entrada com senha via fechadura inteligente.",
+    "details":["Vista panorâmica", "Academia", "Wi-Fi", "Estacionamento incluído"],
+    "img1":"https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img2":"https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img3":"https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "raiting": 60,
+    "raiting-average": 4.8,
+    "comments": [
+        {
+            "comment":"Localização perfeita e apartamento incrível. Anfitrião muito atencioso e prestativo.",
+            "user": "Pedro Peter",
+            "data": "01/04/2021" 
+        },
+        {
+            "comment":"Adorei a estadia!",
+            "user": "Ana Maria",
+            "data": "15/10/2021"
+        }
+    ],
+    "owner": {
+        "name":"Julia Maria Silva",
+        "dateOfMember": "10/01/2020",
+        "contact":"Durante sua estadia, entrar em contato via app do Airbnb ou telefone", 
+        "info": "Julia Maria Silva é Superhost"
+    }, 
+    "price": 300
+},
+{
+    "id": 77,
+    "title": "Casa de praia espaçosa com vista para o mar",
+    "subtitle": "Casa de praia completa com vista panorâmica para o mar, cercada por natureza e tranquilidade. Uma experiência única para quem busca relaxamento e lazer.",
+    "description": "O espaço é amplo e arejado. Sala de estar integrada com cozinha e quartos espaçosos. Cozinha completa com cooktop, forno elétrico, micro-ondas, geladeira, pia com área gourmet e bancada para refeições. Na sala de estar temos uma TV de tela plana, ventilador de teto e sofá confortável. Nos banheiros, pias duplas, chuveiro elétrico e decoração moderna. Quartos com camas de casal (lençóis 400fios), guarda-roupas espaçosos e decoração sofisticada. Varanda ampla com vista para o mar e rede para relaxar. Entrada privativa para os hóspedes e entrada com senha via fechadura inteligente.",
+    "details":["Vista para o mar", "Churrasqueira", "Wi-Fi", "Estacionamento incluído"],
+    "img1":"https://images.pexels.com/photos/235621/pexels-photo-235621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img2":"https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img3":"https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "raiting": 70,
+    "raiting-average": 4.2,
+    "comments": [
+        {
+            "comment":"Vista incrível.",
+            "user": "Casalberto Sonoro",
+            "data": "05/05/2021" 
+        },
+        {
+            "comment":"Adorei a estadia! Recomendo!",
+            "user": "Harry Potter",
+            "data": "20/11/2021"
+        }
+    ],
+    "owner": {
+        "name":"Marcy Costa",
+        "dateOfMember": "06/05/2021",
+        "contact":"Durante sua estadia, entrar em contato via app do Airbnb ou telefone", 
+        "info": "Marcy Costa é um host verificado"
+    }, 
+    "price": 350
+},
+{
+    "id": 88,
+    "title": "Apartamento moderno no centro da cidade",
+    "subtitle": "Apartamento completo no coração da cidade, cercado por lojas, restaurantes e atrações turísticas. Uma experiência única para quem busca conforto e praticidade.",
+    "description": "O espaço é moderno e elegante. Sala de estar integrada com cozinha e quarto espaçoso. Cozinha completa com cooktop, forno elétrico, micro-ondas, geladeira, pia com área gourmet e bancada para refeições. Na sala de estar temos uma TV de tela plana, ar condicionado e sofá confortável. No banheiro, pia dupla, chuveiro elétrico e uma banheira de hidromassagem com vista panorâmica para a cidade. Quarto com cama queen size (lençóis 400fios), guarda-roupa espaçoso e decoração sofisticada. Portaria 24h com segurança e entrada com senha via fechadura inteligente.",
+    "details":["Vista panorâmica", "Academia", "Wi-Fi", "Estacionamento incluído"],
+    "img1":"https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img2":"https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img3":"https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "raiting": 80,
+    "raiting-average": 4.3,
+    "comments": [
+        {
+            "comment":"Localização perfeita e apartamento incrível. Anfitrião muito atencioso e prestativo.",
+            "user": "Clariosvaldo",
+            "data": "01/06/2021" 
+        },
+        {
+            "comment":"Adorei a estadia!",
+            "user": "Bruna",
+            "data": "15/12/2021"
+        }
+    ],
+    "owner": {
+        "name":"Sovelina Amaral",
+        "dateOfMember": "01/04/2018",
+        "contact":"Durante sua estadia, entrar em contato via app do Airbnb ou telefone", 
+        "info": "Sovelina Amaral é Superhost"
+    }, 
+    "price": 400
+},
+{
+    "id": 55,
+    "title": "Casa de campo espaçosa com vista para a montanha",
+    "subtitle": "Casa de campo completa com vista panorâmica para a montanha, cercada por natureza e tranquilidade. Uma experiência única para quem busca relaxamento e lazer.",
+    "description": "O espaço é amplo e arejado. Sala de estar integrada com cozinha e quartos espaçosos. Cozinha completa com cooktop, forno elétrico, micro-ondas, geladeira, pia com área gourmet e bancada para refeições. Na sala de estar temos uma TV de tela plana, lareira e sofá confortável. Nos banheiros, pias duplas, chuveiro elétrico e decoração moderna. Quartos com camas de casal (lençóis 400fios), guarda-roupas espaçosos e decoração sofisticada. Varanda ampla com vista para a montanha e rede para relaxar. Entrada privativa para os hóspedes e entrada com senha via fechadura inteligente.",
+    "details":["Vista para a montanha", "Churrasqueira", "Wi-Fi", "Estacionamento incluído"],
+    "img1":"https://images.pexels.com/photos/280204/pexels-photo-280204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img2":"https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "img3":"https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "raiting": 90,
+    "raiting-average": 4.9,
+    "comments": [
+        {
+            "comment":"Confortável e bem localizado.",
+            "user": "Francisco",
+            "data": "05/07/2021" 
+        },
+        {
+            "comment":"Adorei a estadia! Recomendo!",
+            "user": "Mariana",
+            "data": "20/01/2022"
+        }
+    ],
+    "owner": {
+        "name":"João Silva",
+        "dateOfMember": "15/04/2019",
+        "contact":"Durante sua estadia, entrar em contato via app do Airbnb ou telefone", 
+        "info": "João Silva é Superhost"
+    }, 
+    "price": 450
+}]

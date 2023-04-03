@@ -13,10 +13,10 @@ export default function CheckoutCustomer() {
       <h1>CheckoutCustomer</h1>
       <div>
         Detalhes do pagamento:
-        Total:<p>{data.price}</p>
+        Total:<p>{data[0].price}</p>
         PAGAMENTOS AQUI CAMBADA
         {/* <h2>{data.title}</h2> */}
-        <h3>{data.subtitle}</h3>
+        <h3>{data[0].subtitle}</h3>
 
       </div>
 

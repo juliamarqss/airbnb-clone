@@ -9,26 +9,25 @@ import CardDetailsProperty from '@/components/CardDetailsProperty'
 
 export default function DetailsPropertyCustomer() {
   const router = useRouter()
+  const number: any = router.query.index
 
   return (
     <div>
       <Header />
       <h1>DetailsPropertyCustomer</h1>
-      <CardDetailsProperty 
-      title={data[0].title}
-      subtitle={data[0].subtitle}
-      description={data[0].description}
-      details={data[0].details}
-      img1={data[0].img1}
-      img2={data[0].img2}
-      img3={data[0].img3}
-      comments={data[0].comments}
-      comment={data[0].comments[0].comment}
-      data={data[0].comments[0].data}
-      user={data[0].comments[0].user}
-      raiting={data[0].raiting}
-      price={data[0].price}
-      owner={data[0].owner}
+      <CardDetailsProperty
+      index={number}
+      title={data[number].title}
+      subtitle={data[number].subtitle}
+      description={data[number].description}
+      details={data[number].details}
+      img1={data[number].img1}
+      img2={data[number].img2}
+      img3={data[number].img3}
+      comments={data[number].comments}
+      raiting={data[number].raiting}
+      price={data[number].price}
+      owner={data[number].owner}
       />
       <Button title="Reserve ja!" onClick={() => router.push('/Customer/CheckoutCustomer')}  type='button' disabled={false}/>
     <Footer />

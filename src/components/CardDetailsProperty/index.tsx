@@ -1,4 +1,4 @@
-import React from 'react'
+
 import data from '../../mock/index.json'
 import Image from 'next/image'
 
@@ -33,12 +33,12 @@ interface Props {
 
 
 export default function CardDetailsProperty(props: Props) {
-0
+
+
   const {title, subtitle, description, details, img1,img2, img3, comments,raiting,price, owner} = props;
 
   return (
     <div>
-      <h1>CardDetailsProperty</h1>
       <div>
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
@@ -69,6 +69,9 @@ export default function CardDetailsProperty(props: Props) {
       <p>Membro desde {owner.dateOfMember}</p>
       <p>Contato: {owner.contact}</p>
       <p>{owner.info}</p>
+    </div>
+    <div>
+
     </div>
     </div>
   )

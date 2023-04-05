@@ -1,7 +1,7 @@
 import { IUser } from "../interfaces/IUser";
 import User from "../models/User";
 import { NextFunction, Request, Response } from "express";
-import validator from "validator";
+// import validator from "validator";
 
 class UserController {
   public async find(): Promise<IUser[]> {

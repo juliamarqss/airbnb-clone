@@ -1,14 +1,34 @@
-import mongoose from 'mongoose';
-import express from 'express';
+const mongoose = require('mongoose') ;
+const express = require('express') ;
 import UserRouter from './routes/UserRoutes';
-import cors from 'cors';
-import app from '.';
+const cors = require('cors');
+// import app from '.';
 
-// mongoose.connect('mongodb://localhost:27017/meuBanco');
-
-
+const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/users', UserRouter);
-app.get('/', (_req, res) => res.send('Hello World!'));
+// app.get('/', (_req: any, res: any) => res.send('Hello World!'));
+
+mongoose
+  .connect("mongodb://localhost:27017")
+  .then(() => {
+      console.log("MongoDB connected successfully");
+
+
+    app.use((req: any, res: any, next:any) => {
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Methods", "*");
+      res.setHeader("Access-Control-Allow-Headers", "*");
+
+      next();
+    });
+
+    app.use('/users', UserRouter);
+
+  const PORT = 3000;
+    app.listen(PORT, () => {
+      console.log(`Server is running on http://localhost:${PORT}`);
+    });
+  })
+  .catch(() => console.log("Erro ao conectar no mongo"));

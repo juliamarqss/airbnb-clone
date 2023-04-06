@@ -18,6 +18,12 @@ export default function Login() {
     setPassword(event.target.value)
   }
 
+  // const isLogged = () => {
+  //   if (localStorage.getItem('user')) {
+  //     const userData = JSON.parse(localStorage.getItem('user'));
+  //     history.push('/customer/products');
+  //   }
+  // };
 
   return (
     <div>

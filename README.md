@@ -5,7 +5,10 @@
 ...
 
 ## Tecnologias 🚀
-...
+- React.js
+- Next.js
+- Typescript
+- MongoDB
 
 ## Contribuições 💡
 Este projeto é de código aberto e aceita contribuições. Se você quer colaborar, siga estes passos:

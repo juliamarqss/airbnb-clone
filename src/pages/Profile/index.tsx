@@ -13,7 +13,8 @@ export default function Profile () {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetchAll(`localhost:3001/u/${username}`);
+        const response = await fetchAll(`http://localhost:3000/users/${username}`);
+        console.log("response", response);
         setData(response);
       } catch (error) {
         console.log('azedou maluco:', error)
@@ -32,6 +33,8 @@ export default function Profile () {
           <p>Nome: {data.name}</p>
           <p>Email: {data.email}</p>
           <p>CPF: {data.cpf}</p>
+          <p>Celular: {data.phone}</p>
+          <p>Endereço: {data.address}</p>
         </div>
       )}
     </div>

@@ -2,12 +2,12 @@ import mongoose, { Schema } from 'mongoose';
 import { IUser } from '../interfaces/IUser';
 
 const userSchema = new Schema({
-  name: { type: String, required: true },
+  name: { type: String},
   email: { type: String, required: true },
-  phone: { type: String, required: true },
-  address: { type: String, required: true },
+  phone: { type: String },
+  address: { type: String },
   cpf: { type: String, required: true },
-  id: { type: String },
+  password: { type: String },
 });
 
 export default mongoose.model<IUser>('User', userSchema);

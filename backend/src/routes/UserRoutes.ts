@@ -12,7 +12,7 @@ UserRouter.get('/', async (req, res) => {
 });
 
 UserRouter.get('/:id', async (req, res) => {
-  const user = await UserController.findById(req.params.id);
+  const user = await UserController.findByName(req.params.id);
   res.send(user);
 });
 

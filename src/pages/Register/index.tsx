@@ -9,35 +9,62 @@ export default function Register() {
   const [data, setData] = useState<any>(null);
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [cpf, setCpf] = useState('')
   const [loading, setLoading] = useState<boolean>(false);
 
-  const usernameJSON = localStorage.getItem('username');
-  const username = usernameJSON ? JSON.parse(usernameJSON) : '';
-  
   const router = useRouter()
 
   const handleChangeEmail = (event: any): void => {
     setEmail(event.target.value)
   }
 
+  const handleChangeCpf = (event: any): void => {
+    setCpf(event.target.value)
+  }
+
   const handleChangePassword = (event: any): void => {
     setPassword(event.target.value)
   }
 
-  useEffect(() => {
-    const fetchData = async () => {
+  const handleClick = async () => {
+    // const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await loginPost(`http://localhost:3000/users`, {} );
+        const response = await loginPost(`http://localhost:3000/users`, {
+          email,
+          password,
+          cpf
+        });
         console.log("response", response);
         setData(response);
       } catch (error) {
         console.log('azedou maluco:', error)
       }
       setLoading(false);
-    };
-    fetchData();
-  }, []);
+    // };
+
+    router.push('/Customer/HomeCustomer')
+  }
+
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     setLoading(true);
+  //     try {
+  //       const response = await loginPost(`http://localhost:3000/users`, {
+  //         email,
+  //         password,
+  //         cpf
+  //       });
+  //       console.log("response", response);
+  //       setData(response);
+  //     } catch (error) {
+  //       console.log('azedou maluco:', error)
+  //     }
+  //     setLoading(false);
+  //   };
+  //   fetchData();
+  // }, [cpf, email, password]);
 
 
 
@@ -46,7 +73,8 @@ export default function Register() {
       <h1>Cadastre-se</h1>
       <Input type="text" placeholder='Email' onChange={(event) => handleChangeEmail(event)} value={email} />
       <Input type="password" placeholder='Password' onChange={(event) => handleChangePassword(event)} value={password} />
-      <Button title="Cadastre-se" onClick={() => router.push('/Customer/HomeCustomer')}  type='button' disabled={isEmailValid(email) && password ? false : true}/>
+      <Input type="cpf" placeholder='Cpf' onChange={(event) => handleChangeCpf(event)} value={cpf} />
+      <Button title="Cadastre-se" onClick={() => handleClick()}  type='button' disabled={isEmailValid(email) && password ? false : true}/>
     </div>
   )
 }

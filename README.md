@@ -18,11 +18,14 @@ Abra um pull request no GitHub e aguarde a revisão
 ### Contato ✉️
 Se você tem alguma dúvida, sugestão ou feedback, entre em contato com um dos autores do projeto:
 
-Nome: Giovanna Gomes Alves de Morai
+Nome: Giovanna Gomes Alves de Morais
+<br/>
 LinkedIn: https://www.linkedin.com/in/giovanna-gomes-alves-de-morais/
 
 Nome: Júlia Marques de Oliveira Fonsêca
+<br/>
 LinkedIn: https://www.linkedin.com/in/marques-julia/
 
 Nome: Victor Hugo S. Prestes Martins
+<br/>
 LinkedIn: https://www.linkedin.com/in/vhprestes/

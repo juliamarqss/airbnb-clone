@@ -18,7 +18,7 @@ Faça um commit com suas mudanças: git commit -m 'feat: Minha nova feature'
 Faça um push para a sua branch: git push origin minha-feature
 Abra um pull request no GitHub e aguarde a revisão
 
-### Contato ✉️
+## Contato ✉️
 Se você tem alguma dúvida, sugestão ou feedback, entre em contato com um dos autores do projeto:
 
 - [Giovanna Gomes](https://www.linkedin.com/in/giovanna-gomes-alves-de-morais/)

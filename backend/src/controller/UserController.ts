@@ -8,8 +8,8 @@ class UserController {
     return User.find();
   }
 
-  public async findById(id: string): Promise<IUser | null> {
-    return User.findById(id);
+  public async findByName(name: string): Promise<IUser | null> {
+    return User.findOne({name})
   }
 
 public async create(user: IUser): Promise<IUser> {

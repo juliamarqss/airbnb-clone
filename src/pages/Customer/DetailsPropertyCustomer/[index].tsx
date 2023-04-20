@@ -46,7 +46,7 @@ export default function DetailsPropertyCustomer() {
   const today = new Date();
   return (
     <div>
-      <Header />
+      <Header isVisible={true}/>
       <CardDetailsProperty
       index={number}
       title={data[number]?.title}

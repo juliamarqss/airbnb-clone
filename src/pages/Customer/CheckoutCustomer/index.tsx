@@ -18,7 +18,7 @@ export default function CheckoutCustomer() {
 
   return (
     <div>
-      <Header />
+      <Header isVisible={true} />
       <h1>CheckoutCustomer</h1>
       <div>
         <span>Detalhes do pagamento: </span>

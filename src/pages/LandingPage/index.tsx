@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
 import Modal from '@/components/Modal'
-import Landing from '@/images/landing-page.jpg'
 import { useState } from 'react'
+import Header from '@/components/Header'
 
 export default function LandingPage() {
   const [modal, setModal] = useState(false)
+  const imagemUrl = '/images/landing-page.jpg'
 
   const handleClick = () => {
     setModal(true)
@@ -17,8 +17,12 @@ export default function LandingPage() {
         modal && <Modal />
       }
       <div>
-        <Image src={Landing} alt="Landing Page" width={1000} />
-        <button onClick={handleClick}>Reserve aqui!</button>
+        <Header isVisible={false} className="m-3 ms-5"/>
+        <div className="bg-cover bg-center h-screen "  style={{ backgroundImage: `url(${imagemUrl})` }}>
+          <div className="flex items-center justify-center h-screen">
+            <button className="bg-[#fd595fdc] hover:bg-[#ffdddedc] text-white font-bold hover:text-[#3f3f3fef] py-2 px-4 rounded" onClick={handleClick}>Reserve aqui!</button>
+          </div>
+        </div>
       </div>
     </div>
   )

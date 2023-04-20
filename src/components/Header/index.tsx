@@ -21,12 +21,12 @@ export default function Header(props: Props) {
   }, []);
 
   return (
-    <div>
-      <Image src={Logo} alt="logo" height={30} className={className}/>
+    <div className="flex justify-between m-3 mx-5">
+      <Image src={Logo} alt="logo" height={30} />
       {
         isVisible && 
         (
-        <div>
+        <div className="text-[#3f3f3fef] font-bold">
           <h2>{username}</h2>
           <button onClick={() => router.push(`/Profile`)}>Profile</button>
         </div>

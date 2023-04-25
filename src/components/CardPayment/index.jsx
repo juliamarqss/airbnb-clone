@@ -6,7 +6,7 @@ function CardPayment() {
     <div>
       <span>
       <p>Pagar com:</p>
-      <Image src="https://www.melhoresdestinos.com.br/wp-content/uploads/2020/02/bandeiras-3-820x152.png" alt="bandeiras" width="100px" height="25px" />
+      <Image src="https://www.melhoresdestinos.com.br/wp-content/uploads/2020/02/bandeiras-3-820x152.png" alt="bandeiras" width="82px" height="15px" />
       </span>
       <input type="text" placeholder="Número do cartão" />
       <input type="text" placeholder="Código de segurança" />

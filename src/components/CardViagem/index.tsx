@@ -4,12 +4,13 @@ import Button from '../Button';
 const CardViagem: React.FC = () => {
   const reserva = localStorage.getItem('reserva');
   const reservas = reserva ? JSON.parse(reserva) : {};
+  const totalDias = reservas?.selectedDateOut - reservas?.selectedDateIn;
 
   return (
     <div>
       <h3>Sua viagem:</h3>
       <p>
-        Datas: {reservas.selectedDateIn} - {reservas.selectedDateOut}
+        Datas: {totalDias}
       </p>
       <Button
         onClick={() => alert('editar datas')}
@@ -19,7 +20,7 @@ const CardViagem: React.FC = () => {
       />
       <p>Hospedes: {reservas.hospedes}</p>
       <Button
-        onClick={() => alert('editar datas')}
+        onClick={() => alert('editar pessoas')}
         disabled={false}
         title="editar"
         type="button"

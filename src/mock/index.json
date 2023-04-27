@@ -8,6 +8,7 @@
     "img2":"https://a0.muscache.com/im/pictures/miso/Hosting-46451535/original/a5fbcddd-8849-4585-986d-78600354fcd9.jpeg?im_w=720",
     "img3":"https://a0.muscache.com/im/pictures/miso/Hosting-46451535/original/5eb7b41e-81fd-451a-a8a6-0f2931b991d7.jpeg?im_w=720",
     "raiting": 40,
+    "categoria": "praia",
     "raiting-average": 4,
     "comments": [
         {
@@ -55,6 +56,7 @@
     "img2":"https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "img3":"https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "raiting": 60,
+    "categoria": "praia",
     "raiting-average": 4.8,
     "comments": [
         {
@@ -86,6 +88,7 @@
     "img2":"https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "img3":"https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "raiting": 70,
+    "categoria": "neve, montanha",
     "raiting-average": 4.2,
     "comments": [
         {
@@ -117,6 +120,7 @@
     "img2":"https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "img3":"https://images.pexels.com/photos/276566/pexels-photo-276566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "raiting": 80,
+    "categoria": "praia",
     "raiting-average": 4.3,
     "comments": [
         {
@@ -148,6 +152,7 @@
     "img2":"https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "img3":"https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "raiting": 90,
+    "categoria": "praia",
     "raiting-average": 4.9,
     "comments": [
         {

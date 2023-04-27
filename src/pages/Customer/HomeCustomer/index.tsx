@@ -10,12 +10,24 @@ export default function HomeCustomer() {
     setFilter(value); // atualiza o estado de filtro
   };
 
+  
+
+
   const filteredData = data.filter((item) => {
     // verifica se o valor da propriedade categoria ou description contém a string de filtro
     return item.categoria.toLowerCase().includes(filter.toLowerCase()) ||
            item.description.toLowerCase().includes(filter.toLowerCase()) ||
            item.details[0].toLowerCase().includes(filter.toLowerCase());
   });
+
+  const categories = [
+    'Vistas incríveis',
+    'No interior',
+    'Em frente à praia',
+    'Acampamentos',
+    'Praia',
+    // todo: verificar as outras categorias e colocar aqui
+  ];
 
   return (
     <div>
@@ -25,6 +37,13 @@ export default function HomeCustomer() {
         placeholder="Pesquisar"
         onChange={(e) => handleFilterChange(e.target.value)}
       />
+
+{categories.map((category) => (
+      <button key={category} onClick={() => handleFilterChange(category)}>
+        {category}
+      </button>
+    ))}
+
       {filteredData.map((item, index) => (
         <CardProperty
           key={index}
